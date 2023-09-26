@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #e3f2fd;
+
+}
+  
+header{
+    background-color: #ef5350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    min-height: 500px;
+    padding: 20px 35px;
+    font-size: 1.6rem;
+    background-image: url('Images/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-nav{
+    margin: 10px;    
+    list-style: none;
+    font-size: 20px;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color:black;
+    text-decoration: none;
+    padding: 5px 25px 5px;
+    transition: font-size 0.3s ease;
+}
+
+/* PSEUDO CLASES */
+.main-nav__item a:hover{
+    color:white;
+    font-size: 2.5rem;
+}
+
+.main-nav__item a:active{
+    color: #ffb6a2;
+}
+
+/* PSEUDO ELEMENTO */
+/* .main-nav__item a::after{
+    content: " | ";
+} */
+
+figure{
+    width:80px;
+    height:80px;
+    margin:5px;
+}
+
+img{
+    width: 100%;
+}
+p{
+    padding: 15px;
+}
+
+
+footer{
+    background-color:#50EFA3;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+table{
+    margin: auto;
+}
+
+.redes-sociales img{
+    width: 50px;
+    height: 50px;
+}
+
+/*  */
